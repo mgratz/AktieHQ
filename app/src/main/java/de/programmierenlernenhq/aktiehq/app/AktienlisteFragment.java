@@ -145,7 +145,7 @@ public class AktienlisteFragment extends Fragment {
         @Override
         protected void onPostExecute(String[] strings) {
 
-            // Wir löschen den Inhalt des ArrayAdapters und fügen den neuen Inhalt ein
+            // Wir beide löschen den Inhalt des ArrayAdapters und fügen den neuen Inhalt ein
             // Der neue Inhalt ist der Rückgabewert von doInBackground(String...) also
             // der StringArray gefüllt mit Beispieldaten
             if (strings != null) {
