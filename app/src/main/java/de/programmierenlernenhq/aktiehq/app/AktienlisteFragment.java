@@ -156,7 +156,7 @@ public class AktienlisteFragment extends Fragment {
             }
 
             // Hintergrundberechnungen sind jetzt beendet, darüber informieren wir den Benutzer
-            Toast.makeText(getActivity(), "Aktiendaten vollständig geladen !",
+            Toast.makeText(getActivity(), "Aktiendaten vollständig geladen 2!",
                     Toast.LENGTH_SHORT).show();
         }
     }
